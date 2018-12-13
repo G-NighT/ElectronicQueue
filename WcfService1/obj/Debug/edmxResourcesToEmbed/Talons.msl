@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище db_TalonsModelContainer" CdmEntityContainer="db_TalonsEntities1">
+    <EntitySetMapping Name="Logging">
+      <EntityTypeMapping TypeName="db_TalonsModel.Logging">
+        <MappingFragment StoreEntitySet="Logging">
+          <ScalarProperty Name="id_log" ColumnName="id_log" />
+          <ScalarProperty Name="id_okna" ColumnName="id_okna" />
+          <ScalarProperty Name="name_talon" ColumnName="name_talon" />
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logging2">
+      <EntityTypeMapping TypeName="db_TalonsModel.Logging2">
+        <MappingFragment StoreEntitySet="Logging2">
+          <ScalarProperty Name="id_log2" ColumnName="id_log2" />
+          <ScalarProperty Name="id_okna2" ColumnName="id_okna2" />
+          <ScalarProperty Name="name_talon2" ColumnName="name_talon2" />
+          <ScalarProperty Name="datatame2" ColumnName="datatame2" />
+          <ScalarProperty Name="date_raznica" ColumnName="date_raznica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logging3">
+      <EntityTypeMapping TypeName="db_TalonsModel.Logging3">
+        <MappingFragment StoreEntitySet="Logging3">
+          <ScalarProperty Name="id_log3" ColumnName="id_log3" />
+          <ScalarProperty Name="id_okna3" ColumnName="id_okna3" />
+          <ScalarProperty Name="name_talon3" ColumnName="name_talon3" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="rabota_s_klientom" ColumnName="rabota_s_klientom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Talons">
+      <EntityTypeMapping TypeName="db_TalonsModel.Talons">
+        <MappingFragment StoreEntitySet="Talons">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WindowStatus">
+      <EntityTypeMapping TypeName="db_TalonsModel.WindowStatus">
+        <MappingFragment StoreEntitySet="WindowStatus">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

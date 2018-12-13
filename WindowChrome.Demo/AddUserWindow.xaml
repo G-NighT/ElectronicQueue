@@ -1,0 +1,27 @@
+﻿<Window x:Class="WindowChrome.Demo.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowChrome.Demo"
+        mc:Ignorable="d"
+        Title="AddUserWindow"
+        Height="242.22"
+        Width="313.944"
+        Icon="/mainicon.ico"
+        Style="{StaticResource VS2012WindowStyle}"
+        ResizeMode="NoResize"
+        >
+    <Grid>
+        <Button x:Name="button" Content="Apply" HorizontalAlignment="Left" Margin="8,149,0,0" VerticalAlignment="Top" Width="282" Click="button_Click" Height="38"/>
+        <Label x:Name="label2_Copy" Content="First Name" HorizontalAlignment="Left" Margin="8,9,0,0" VerticalAlignment="Top" Height="31" Width="118"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="127,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="label2_Copy1" Content="Second Name" HorizontalAlignment="Left" Margin="8,37,0,0" VerticalAlignment="Top" Height="31" Width="118"/>
+        <TextBox x:Name="textBox3_Copy" HorizontalAlignment="Left" Height="23" Margin="127,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="label2_Copy2" Content="Login" HorizontalAlignment="Left" Margin="8,65,0,0" VerticalAlignment="Top" Height="31" Width="118"/>
+        <TextBox x:Name="textBox3_Copy1" HorizontalAlignment="Left" Height="23" Margin="127,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="label2_Copy3" Content="Password" HorizontalAlignment="Left" Margin="8,93,0,0" VerticalAlignment="Top" Height="31" Width="118"/>
+        <TextBox x:Name="textBox3_Copy2" HorizontalAlignment="Left" Height="23" Margin="127,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <CheckBox x:Name="checkBox" Content="Administrator" HorizontalAlignment="Left" Margin="127,126,0,0" VerticalAlignment="Top" Height="18" Width="163"/>
+    </Grid>
+</Window>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище db_TalonsModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Logging">
+          <Key>
+            <PropertyRef Name="id_log" />
+          </Key>
+          <Property Name="id_log" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_okna" Type="int" Nullable="false" />
+          <Property Name="name_talon" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="datetime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Logging2">
+          <Key>
+            <PropertyRef Name="id_log2" />
+          </Key>
+          <Property Name="id_log2" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_okna2" Type="int" Nullable="false" />
+          <Property Name="name_talon2" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="datatame2" Type="datetime" Nullable="false" />
+          <Property Name="date_raznica" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Logging3">
+          <Key>
+            <PropertyRef Name="id_log3" />
+          </Key>
+          <Property Name="id_log3" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_okna3" Type="int" Nullable="false" />
+          <Property Name="name_talon3" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="time" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="rabota_s_klientom" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Talons">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="WindowStatus">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="status" Type="varchar" MaxLength="5" />
+        </EntityType>
+        <EntityContainer Name="Хранилище db_TalonsModelContainer">
+          <EntitySet Name="Logging" EntityType="Self.Logging" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Logging2" EntityType="Self.Logging2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Logging3" EntityType="Self.Logging3" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Talons" EntityType="Self.Talons" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WindowStatus" EntityType="Self.WindowStatus" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="db_TalonsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Logging">
+          <Key>
+            <PropertyRef Name="id_log" />
+          </Key>
+          <Property Name="id_log" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_okna" Type="Int32" Nullable="false" />
+          <Property Name="name_talon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="datetime" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Logging2">
+          <Key>
+            <PropertyRef Name="id_log2" />
+          </Key>
+          <Property Name="id_log2" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_okna2" Type="Int32" Nullable="false" />
+          <Property Name="name_talon2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="datatame2" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="date_raznica" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Logging3">
+          <Key>
+            <PropertyRef Name="id_log3" />
+          </Key>
+          <Property Name="id_log3" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_okna3" Type="Int32" Nullable="false" />
+          <Property Name="name_talon3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="rabota_s_klientom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Talons">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="WindowStatus">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="status" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="db_TalonsEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Logging" EntityType="Self.Logging" />
+          <EntitySet Name="Logging2" EntityType="Self.Logging2" />
+          <EntitySet Name="Logging3" EntityType="Self.Logging3" />
+          <EntitySet Name="Talons" EntityType="Self.Talons" />
+          <EntitySet Name="WindowStatus" EntityType="Self.WindowStatus" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище db_TalonsModelContainer" CdmEntityContainer="db_TalonsEntities1">
+          <EntitySetMapping Name="Logging">
+            <EntityTypeMapping TypeName="db_TalonsModel.Logging">
+              <MappingFragment StoreEntitySet="Logging">
+                <ScalarProperty Name="id_log" ColumnName="id_log" />
+                <ScalarProperty Name="id_okna" ColumnName="id_okna" />
+                <ScalarProperty Name="name_talon" ColumnName="name_talon" />
+                <ScalarProperty Name="datetime" ColumnName="datetime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Logging2">
+            <EntityTypeMapping TypeName="db_TalonsModel.Logging2">
+              <MappingFragment StoreEntitySet="Logging2">
+                <ScalarProperty Name="id_log2" ColumnName="id_log2" />
+                <ScalarProperty Name="id_okna2" ColumnName="id_okna2" />
+                <ScalarProperty Name="name_talon2" ColumnName="name_talon2" />
+                <ScalarProperty Name="datatame2" ColumnName="datatame2" />
+                <ScalarProperty Name="date_raznica" ColumnName="date_raznica" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Logging3">
+            <EntityTypeMapping TypeName="db_TalonsModel.Logging3">
+              <MappingFragment StoreEntitySet="Logging3">
+                <ScalarProperty Name="id_log3" ColumnName="id_log3" />
+                <ScalarProperty Name="id_okna3" ColumnName="id_okna3" />
+                <ScalarProperty Name="name_talon3" ColumnName="name_talon3" />
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="rabota_s_klientom" ColumnName="rabota_s_klientom" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Talons">
+            <EntityTypeMapping TypeName="db_TalonsModel.Talons">
+              <MappingFragment StoreEntitySet="Talons">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WindowStatus">
+            <EntityTypeMapping TypeName="db_TalonsModel.WindowStatus">
+              <MappingFragment StoreEntitySet="WindowStatus">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

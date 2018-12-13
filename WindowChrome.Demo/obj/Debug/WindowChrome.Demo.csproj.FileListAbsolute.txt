@@ -1,0 +1,122 @@
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\App.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\App.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.lref
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.g.resources
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.Properties.Resources.resources
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.csproj.GenerateResource.Cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.csprojResolveAssemblyReference.cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\bin\Debug\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\App.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\App.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.lref
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.g.resources
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.Properties.Resources.resources
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.csproj.GenerateResource.Cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddDeveloperWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddDeveloperWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddPublisherWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddPublisherWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddUserWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WindowChrome.Demo\obj\Debug\AddUserWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe.config
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\WindowChrome.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\bin\Debug\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.csprojResolveAssemblyReference.cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\App.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddUserWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddPublisherWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddDeveloperWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\Styles\VS2012\VS2012WindowStyle.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\App.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo_MarkupCompile.lref
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddUserWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddPublisherWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddDeveloperWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\AddWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\CircularProgressBar3.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\LoginWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\MainWindow.baml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.g.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.Properties.Resources.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WindowChrome.Demo\obj\Debug\WindowChrome.Demo.csproj.GenerateResource.Cache

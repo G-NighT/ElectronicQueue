@@ -1,0 +1,9 @@
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\bin\Debug\Screen.exe.config
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\bin\Debug\Screen.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\bin\Debug\Screen.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.csprojResolveAssemblyReference.cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.ScreenForm.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.Properties.Resources.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.csproj.GenerateResource.Cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Screen\obj\Debug\Screen.pdb

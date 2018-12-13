@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfGames">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Games" nillable="true" type="tns:Games" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGames" nillable="true" type="tns:ArrayOfGames" />
+  <xs:complexType name="Games">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Brutal_Rating" type="xs:double" />
+      <xs:element minOccurs="0" name="Cyber_Discipline" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Developers" nillable="true" type="tns:Developers" />
+      <xs:element minOccurs="0" name="Game_Area" nillable="true" type="tns:ArrayOfGame_Area" />
+      <xs:element minOccurs="0" name="Game_Exhibition" nillable="true" type="tns:ArrayOfGame_Exhibition" />
+      <xs:element minOccurs="0" name="Game_Genre" nillable="true" type="tns:ArrayOfGame_Genre" />
+      <xs:element minOccurs="0" name="Game_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID_Developer" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Publisher" type="xs:int" />
+      <xs:element minOccurs="0" name="Network_Mode" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Publishers" nillable="true" type="tns:Publishers" />
+      <xs:element minOccurs="0" name="Year_of_Publication" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Games" nillable="true" type="tns:Games" />
+  <xs:complexType name="Developers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Developer_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:ArrayOfGames" />
+      <xs:element minOccurs="0" name="ID_Developer" type="xs:int" />
+      <xs:element minOccurs="0" name="Indie" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Developers" nillable="true" type="tns:Developers" />
+  <xs:complexType name="ArrayOfGame_Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game_Area" nillable="true" type="tns:Game_Area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame_Area" nillable="true" type="tns:ArrayOfGame_Area" />
+  <xs:complexType name="Game_Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Area" nillable="true" type="tns:Area" />
+      <xs:element minOccurs="0" name="Area_Game_Cost" type="xs:int" />
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:Games" />
+      <xs:element minOccurs="0" name="ID_Area" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game_Area" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game_Area" nillable="true" type="tns:Game_Area" />
+  <xs:complexType name="Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Area_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Area_Rating" type="xs:double" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Game_Area" nillable="true" type="tns:ArrayOfGame_Area" />
+      <xs:element minOccurs="0" name="ID_Area" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Area" nillable="true" type="tns:Area" />
+  <xs:complexType name="ArrayOfGame_Exhibition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game_Exhibition" nillable="true" type="tns:Game_Exhibition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame_Exhibition" nillable="true" type="tns:ArrayOfGame_Exhibition" />
+  <xs:complexType name="Game_Exhibition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exhibitions" nillable="true" type="tns:Exhibitions" />
+      <xs:element minOccurs="0" name="Game_Rating_On_Exhibition" type="xs:double" />
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:Games" />
+      <xs:element minOccurs="0" name="ID_Exhibition" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game_Exhibition" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game_Exhibition" nillable="true" type="tns:Game_Exhibition" />
+  <xs:complexType name="Exhibitions">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exhibition_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Exhibition_Rating" type="xs:double" />
+      <xs:element minOccurs="0" name="Game_Exhibition" nillable="true" type="tns:ArrayOfGame_Exhibition" />
+      <xs:element minOccurs="0" name="ID_Exhibition" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exhibitions" nillable="true" type="tns:Exhibitions" />
+  <xs:complexType name="ArrayOfGame_Genre">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game_Genre" nillable="true" type="tns:Game_Genre" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame_Genre" nillable="true" type="tns:ArrayOfGame_Genre" />
+  <xs:complexType name="Game_Genre">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:Games" />
+      <xs:element minOccurs="0" name="Genres" nillable="true" type="tns:Genres" />
+      <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Game_Genre" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Genre" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game_Genre" nillable="true" type="tns:Game_Genre" />
+  <xs:complexType name="Genres">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Game_Genre" nillable="true" type="tns:ArrayOfGame_Genre" />
+      <xs:element minOccurs="0" name="Genre_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Genre_Page" type="xs:int" />
+      <xs:element minOccurs="0" name="ID_Genre" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Genres" nillable="true" type="tns:Genres" />
+  <xs:complexType name="Publishers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:ArrayOfGames" />
+      <xs:element minOccurs="0" name="ID_Publisher" type="xs:int" />
+      <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Publisher_Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Publishers" nillable="true" type="tns:Publishers" />
+  <xs:complexType name="ArrayOfDevelopers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Developers" nillable="true" type="tns:Developers" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDevelopers" nillable="true" type="tns:ArrayOfDevelopers" />
+  <xs:complexType name="ArrayOfPublishers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Publishers" nillable="true" type="tns:Publishers" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPublishers" nillable="true" type="tns:ArrayOfPublishers" />
+  <xs:complexType name="ArrayOfUsersBD">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsersBD" nillable="true" type="tns:UsersBD" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsersBD" nillable="true" type="tns:ArrayOfUsersBD" />
+  <xs:complexType name="UsersBD">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Administrator" type="xs:boolean" />
+      <xs:element minOccurs="0" name="First_Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID_User" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Second_Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsersBD" nillable="true" type="tns:UsersBD" />
+  <xs:complexType name="ArrayOfTalons">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Talons" nillable="true" type="tns:Talons" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTalons" nillable="true" type="tns:ArrayOfTalons" />
+  <xs:complexType name="Talons">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Talons" nillable="true" type="tns:Talons" />
+</xs:schema>

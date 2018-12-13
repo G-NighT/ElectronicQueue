@@ -1,0 +1,93 @@
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ApplicationInsights.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.dll.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Web.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Web.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\ApplicationInsights.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\WcfService1.dll.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.Web.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.Web.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\obj\Debug\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\obj\Debug\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.TraceListener.dll
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Курсовая работа\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.TraceListener.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ApplicationInsights.config
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.dll.config
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Web.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.TraceListener.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.Sinks.ApplicationInsights.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\System.Data.SqlServerCe.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\EntityFramework.SqlServer.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.Web.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.AI.WindowsServer.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Microsoft.ApplicationInsights.TraceListener.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\Serilog.xml
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ru\EntityFramework.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\bin\RU\System.Data.SqlServerCe.resources.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.dll
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache

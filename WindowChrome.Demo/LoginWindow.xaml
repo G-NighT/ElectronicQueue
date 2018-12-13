@@ -1,0 +1,27 @@
+﻿<Window x:Class="WindowChrome.Demo.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowChrome.Demo"
+        mc:Ignorable="d"
+        Title="Login Window"
+        Height="300"
+        Width="500"
+        Icon="/mainicon.ico"
+        Style="{StaticResource VS2012WindowStyle}"
+        ResizeMode="NoResize"
+        KeyDown="Grid_KeyDown"
+        >
+    <Grid>
+        <Button x:Name="button" Content="Login" TabIndex="2" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top" Width="250" Height="81" FontSize="36" Click="button_Click"/>
+        <Label x:Name="label2_Copy" Content="Login" HorizontalAlignment="Left" Margin="118,60,0,0" VerticalAlignment="Top" Height="31" Width="50" FontSize="16"/>
+        <TextBox x:Name="textBox3" TabIndex="0" HorizontalAlignment="Left" Height="31" Margin="168,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" FontSize="20"/>
+        <Button x:Name="button_Copy" Content="Exit" TabIndex="4" HorizontalAlignment="Left" Margin="265,206,0,0" VerticalAlignment="Top" Width="209" Height="38" FontSize="16" Click="button_Copy_Click"/>
+        <Label x:Name="label2_Copy1" Content="Password" HorizontalAlignment="Left" Margin="91,96,0,0" VerticalAlignment="Top" Height="31" Width="77" FontSize="16"/>
+        <Label x:Name="label2_Copy2" Content="The application for the management of the Games database" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="34" Width="439" FontSize="16"/>
+        <PasswordBox x:Name="passwordBox" TabIndex="1" HorizontalAlignment="Left" Margin="168,96,0,0" VerticalAlignment="Top" Height="31" Width="226" FontSize="20"/>
+        <Button x:Name="button_Copy1" Content="Login as a guest" TabIndex="3" HorizontalAlignment="Left" Margin="265,163,0,0" VerticalAlignment="Top" Width="209" Height="38" FontSize="16" Click="button_Copy1_Click"/>
+
+    </Grid>
+</Window>

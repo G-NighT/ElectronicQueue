@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:5135/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService1" />
+  <xs:element name="GetGamesEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGamesEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetGamesEFResult" nillable="true" type="q1:ArrayOfGames" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSpecialGamesEF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_dev" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="id_pub" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="age" nillable="true" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSpecialGamesEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetSpecialGamesEFResult" nillable="true" type="q2:ArrayOfGames" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDevelopersEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDevelopersEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetDevelopersEFResult" nillable="true" type="q3:ArrayOfDevelopers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPublishersEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPublishersEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetPublishersEFResult" nillable="true" type="q4:ArrayOfPublishers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDevelopersEF_WithoutAll">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Active" nillable="true" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDevelopersEF_WithoutAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetDevelopersEF_WithoutAllResult" nillable="true" type="q5:ArrayOfDevelopers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPublishersEF_WithoutAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPublishersEF_WithoutAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetPublishersEF_WithoutAllResult" nillable="true" type="q6:ArrayOfPublishers" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsersTableEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsersTableEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetUsersTableEFResult" nillable="true" type="q7:ArrayOfUsersBD" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsersEF">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUsersEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetUsersEFResult" nillable="true" type="q8:ArrayOfUsersBD" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGameAreaEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGameAreaEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetGameAreaEFResult" nillable="true" type="q9:ArrayOfGame_Area" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGameExhibitionEF">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetGameExhibitionEFResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/WcfService1" minOccurs="0" name="GetGameExhibitionEFResult" nillable="true" type="q10:ArrayOfGame_Exhibition" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logging">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Stack" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoggingResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGame">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Developer" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Publisher" type="xs:int" />
+        <xs:element minOccurs="0" name="Game_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year_of_Publication" type="xs:int" />
+        <xs:element minOccurs="0" name="Brutal_Rating" type="xs:int" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Cyber_Discipline" type="xs:boolean" />
+        <xs:element minOccurs="0" name="Network_Mode" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGameResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGame">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Developer" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Publisher" type="xs:int" />
+        <xs:element minOccurs="0" name="Game_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year_of_Publication" type="xs:int" />
+        <xs:element minOccurs="0" name="Brutal_Rating" type="xs:double" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Cyber_Discipline" type="xs:boolean" />
+        <xs:element minOccurs="0" name="Network_Mode" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGameResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGame">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGameResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDeveloper">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Developer_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Indie" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDeveloperResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDeveloper">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Developer" type="xs:int" />
+        <xs:element minOccurs="0" name="Developer_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Indie" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDeveloperResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDeveloper">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteDeveloperResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPublisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Publisher_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPublisherResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePublisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Publisher" type="xs:int" />
+        <xs:element minOccurs="0" name="Publisher_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Official_Site" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePublisherResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePublisher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePublisherResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="First_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Second_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Administrator" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddUserResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_User" type="xs:int" />
+        <xs:element minOccurs="0" name="First_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Second_Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Administrator" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateUserResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteUserResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGame_Area">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Area" type="xs:int" />
+        <xs:element minOccurs="0" name="Area_Game_Cost" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGame_AreaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGame_Area">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Game_Area" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Area" type="xs:int" />
+        <xs:element minOccurs="0" name="Area_Game_Cost" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGame_AreaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGame_Area">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGame_AreaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGame_Exhibition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Exhibition" type="xs:int" />
+        <xs:element minOccurs="0" name="Game_Rating_On_Exhibition" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddGame_ExhibitionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGame_Exhibition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID_Game_Exhibition" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Game" type="xs:int" />
+        <xs:element minOccurs="0" name="ID_Exhibition" type="xs:int" />
+        <xs:element minOccurs="0" name="Game_Rating_On_Exhibition" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateGame_ExhibitionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGame_Exhibition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteGame_ExhibitionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

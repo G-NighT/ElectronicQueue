@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_TalonsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Logging">
+    <Key>
+      <PropertyRef Name="id_log" />
+    </Key>
+    <Property Name="id_log" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_okna" Type="Int32" Nullable="false" />
+    <Property Name="name_talon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="datetime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Logging2">
+    <Key>
+      <PropertyRef Name="id_log2" />
+    </Key>
+    <Property Name="id_log2" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_okna2" Type="Int32" Nullable="false" />
+    <Property Name="name_talon2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="datatame2" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="date_raznica" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Logging3">
+    <Key>
+      <PropertyRef Name="id_log3" />
+    </Key>
+    <Property Name="id_log3" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_okna3" Type="Int32" Nullable="false" />
+    <Property Name="name_talon3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="rabota_s_klientom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Talons">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="WindowStatus">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="db_TalonsEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Logging" EntityType="Self.Logging" />
+    <EntitySet Name="Logging2" EntityType="Self.Logging2" />
+    <EntitySet Name="Logging3" EntityType="Self.Logging3" />
+    <EntitySet Name="Talons" EntityType="Self.Talons" />
+    <EntitySet Name="WindowStatus" EntityType="Self.WindowStatus" />
+  </EntityContainer>
+</Schema>

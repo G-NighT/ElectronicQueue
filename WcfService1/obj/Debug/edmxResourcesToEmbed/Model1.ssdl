@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище db_MinligareevMAModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Area_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Area_Rating" Type="float" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="140" />
+  </EntityType>
+  <EntityType Name="Developers">
+    <Key>
+      <PropertyRef Name="ID_Developer" />
+    </Key>
+    <Property Name="ID_Developer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Developer_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Official_Site" Type="nvarchar" MaxLength="100" />
+    <Property Name="Indie" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "db_MinligareevMA.dbo.errors" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="errors">
+    <Key>
+      <PropertyRef Name="error_id" />
+    </Key>
+    <Property Name="error_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="error_message" Type="nvarchar" MaxLength="500" />
+    <Property Name="error_datatime" Type="datetime" />
+    <Property Name="error_method" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Exhibitions">
+    <Key>
+      <PropertyRef Name="ID_Exhibition" />
+    </Key>
+    <Property Name="ID_Exhibition" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Exhibition_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Exhibition_Rating" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Game_Area">
+    <Key>
+      <PropertyRef Name="ID_Game_Area" />
+    </Key>
+    <Property Name="ID_Game_Area" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Game" Type="int" Nullable="false" />
+    <Property Name="ID_Area" Type="int" Nullable="false" />
+    <Property Name="Area_Game_Cost" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Game_Exhibition">
+    <Key>
+      <PropertyRef Name="ID_Game_Exhibition" />
+    </Key>
+    <Property Name="ID_Game_Exhibition" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Game" Type="int" Nullable="false" />
+    <Property Name="ID_Exhibition" Type="int" Nullable="false" />
+    <Property Name="Game_Rating_On_Exhibition" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Game_Genre">
+    <Key>
+      <PropertyRef Name="ID_Game_Genre" />
+    </Key>
+    <Property Name="ID_Game_Genre" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Game" Type="int" Nullable="false" />
+    <Property Name="ID_Genre" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="ID_Game" />
+    </Key>
+    <Property Name="ID_Game" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Developer" Type="int" Nullable="false" />
+    <Property Name="ID_Publisher" Type="int" Nullable="false" />
+    <Property Name="Game_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Year_of_Publication" Type="int" Nullable="false" />
+    <Property Name="Brutal_Rating" Type="float" Nullable="false" />
+    <Property Name="Official_Site" Type="nvarchar" MaxLength="100" />
+    <Property Name="Cyber_Discipline" Type="bit" Nullable="false" />
+    <Property Name="Network_Mode" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genres">
+    <Key>
+      <PropertyRef Name="ID_Genre" />
+    </Key>
+    <Property Name="ID_Genre" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Genre_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Genre_Page" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="140" />
+  </EntityType>
+  <EntityType Name="Publishers">
+    <Key>
+      <PropertyRef Name="ID_Publisher" />
+    </Key>
+    <Property Name="ID_Publisher" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Publisher_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Official_Site" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="UsersBD">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Second_Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Administrator" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Game_Area_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Game_Area" Type="Self.Game_Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Game_Area">
+        <PropertyRef Name="ID_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Area_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Area" Type="Self.Game_Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Area">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Exhibition_Exhibitions">
+    <End Role="Exhibitions" Type="Self.Exhibitions" Multiplicity="1" />
+    <End Role="Game_Exhibition" Type="Self.Game_Exhibition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exhibitions">
+        <PropertyRef Name="ID_Exhibition" />
+      </Principal>
+      <Dependent Role="Game_Exhibition">
+        <PropertyRef Name="ID_Exhibition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Exhibition_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Exhibition" Type="Self.Game_Exhibition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Exhibition">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Genre_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Genre" Type="Self.Game_Genre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Genre">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Genre_Genres">
+    <End Role="Genres" Type="Self.Genres" Multiplicity="1" />
+    <End Role="Game_Genre" Type="Self.Game_Genre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genres">
+        <PropertyRef Name="ID_Genre" />
+      </Principal>
+      <Dependent Role="Game_Genre">
+        <PropertyRef Name="ID_Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Games_Developers">
+    <End Role="Developers" Type="Self.Developers" Multiplicity="1" />
+    <End Role="Games" Type="Self.Games" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Developers">
+        <PropertyRef Name="ID_Developer" />
+      </Principal>
+      <Dependent Role="Games">
+        <PropertyRef Name="ID_Developer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Games_Publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="1" />
+    <End Role="Games" Type="Self.Games" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="ID_Publisher" />
+      </Principal>
+      <Dependent Role="Games">
+        <PropertyRef Name="ID_Publisher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище db_MinligareevMAModelContainer">
+    <EntitySet Name="Area" EntityType="Self.Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Developers" EntityType="Self.Developers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exhibitions" EntityType="Self.Exhibitions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Game_Area" EntityType="Self.Game_Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Game_Exhibition" EntityType="Self.Game_Exhibition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Game_Genre" EntityType="Self.Game_Genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Games" EntityType="Self.Games" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genres" EntityType="Self.Genres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Publishers" EntityType="Self.Publishers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersBD" EntityType="Self.UsersBD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="errors" EntityType="Self.errors" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [errors].[error_id] AS [error_id], 
+    [errors].[error_message] AS [error_message], 
+    [errors].[error_datatime] AS [error_datatime], 
+    [errors].[error_method] AS [error_method]
+    FROM [dbo].[errors] AS [errors]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Game_Area_Area" Association="Self.FK_Game_Area_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Game_Area" EntitySet="Game_Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Area_Games" Association="Self.FK_Game_Area_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Area" EntitySet="Game_Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Exhibition_Exhibitions" Association="Self.FK_Game_Exhibition_Exhibitions">
+      <End Role="Exhibitions" EntitySet="Exhibitions" />
+      <End Role="Game_Exhibition" EntitySet="Game_Exhibition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Exhibition_Games" Association="Self.FK_Game_Exhibition_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Exhibition" EntitySet="Game_Exhibition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Genre_Games" Association="Self.FK_Game_Genre_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Genre" EntitySet="Game_Genre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Genre_Genres" Association="Self.FK_Game_Genre_Genres">
+      <End Role="Genres" EntitySet="Genres" />
+      <End Role="Game_Genre" EntitySet="Game_Genre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Games_Developers" Association="Self.FK_Games_Developers">
+      <End Role="Developers" EntitySet="Developers" />
+      <End Role="Games" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Games_Publishers" Association="Self.FK_Games_Publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Games" EntitySet="Games" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

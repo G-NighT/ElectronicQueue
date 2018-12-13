@@ -1,0 +1,23 @@
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\bin\Debug\Whush.Demo.exe.config
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\bin\Debug\Whush.Demo.exe
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\bin\Debug\Whush.Demo.pdb
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.csprojResolveAssemblyReference.cache
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\MainWindow.baml
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\themes\generic.baml
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\App.baml
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\MainWindow.g.cs
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\App.g.cs
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo_MarkupCompile.cache
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.g.resources
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.Properties.Resources.resources
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.csproj.GenerateResource.Cache
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.exe
+D:\Скачанное\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\whosh-master\whosh-master\Whush Solution\Whush.Demo\bin\Debug\Whush.Demo.exe.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\whosh-master\whosh-master\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.pdb
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Whush.Demo\bin\Debug\Whush.Demo.exe.config
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.exe
+D:\Cloud Mail.Ru\ВУЗ\2 КУРС\БАЗЫ ДАННЫХ\4 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Whush.Demo\obj\Debug\Whush.Demo.pdb

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище db_MinligareevMAModelContainer" CdmEntityContainer="db_MinligareevMAContext">
+    <EntitySetMapping Name="Area">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="ID_Area" ColumnName="ID_Area" />
+          <ScalarProperty Name="Area_Name" ColumnName="Area_Name" />
+          <ScalarProperty Name="Area_Rating" ColumnName="Area_Rating" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Developers">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Developers">
+        <MappingFragment StoreEntitySet="Developers">
+          <ScalarProperty Name="ID_Developer" ColumnName="ID_Developer" />
+          <ScalarProperty Name="Developer_Name" ColumnName="Developer_Name" />
+          <ScalarProperty Name="Official_Site" ColumnName="Official_Site" />
+          <ScalarProperty Name="Indie" ColumnName="Indie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exhibitions">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Exhibitions">
+        <MappingFragment StoreEntitySet="Exhibitions">
+          <ScalarProperty Name="ID_Exhibition" ColumnName="ID_Exhibition" />
+          <ScalarProperty Name="Exhibition_Name" ColumnName="Exhibition_Name" />
+          <ScalarProperty Name="Exhibition_Rating" ColumnName="Exhibition_Rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Area">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Game_Area">
+        <MappingFragment StoreEntitySet="Game_Area">
+          <ScalarProperty Name="ID_Game_Area" ColumnName="ID_Game_Area" />
+          <ScalarProperty Name="ID_Game" ColumnName="ID_Game" />
+          <ScalarProperty Name="ID_Area" ColumnName="ID_Area" />
+          <ScalarProperty Name="Area_Game_Cost" ColumnName="Area_Game_Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Exhibition">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Game_Exhibition">
+        <MappingFragment StoreEntitySet="Game_Exhibition">
+          <ScalarProperty Name="ID_Game_Exhibition" ColumnName="ID_Game_Exhibition" />
+          <ScalarProperty Name="ID_Game" ColumnName="ID_Game" />
+          <ScalarProperty Name="ID_Exhibition" ColumnName="ID_Exhibition" />
+          <ScalarProperty Name="Game_Rating_On_Exhibition" ColumnName="Game_Rating_On_Exhibition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Genre">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Game_Genre">
+        <MappingFragment StoreEntitySet="Game_Genre">
+          <ScalarProperty Name="ID_Game_Genre" ColumnName="ID_Game_Genre" />
+          <ScalarProperty Name="ID_Game" ColumnName="ID_Game" />
+          <ScalarProperty Name="ID_Genre" ColumnName="ID_Genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Games">
+        <MappingFragment StoreEntitySet="Games">
+          <ScalarProperty Name="ID_Game" ColumnName="ID_Game" />
+          <ScalarProperty Name="ID_Developer" ColumnName="ID_Developer" />
+          <ScalarProperty Name="ID_Publisher" ColumnName="ID_Publisher" />
+          <ScalarProperty Name="Game_Name" ColumnName="Game_Name" />
+          <ScalarProperty Name="Year_of_Publication" ColumnName="Year_of_Publication" />
+          <ScalarProperty Name="Brutal_Rating" ColumnName="Brutal_Rating" />
+          <ScalarProperty Name="Official_Site" ColumnName="Official_Site" />
+          <ScalarProperty Name="Cyber_Discipline" ColumnName="Cyber_Discipline" />
+          <ScalarProperty Name="Network_Mode" ColumnName="Network_Mode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Genres">
+        <MappingFragment StoreEntitySet="Genres">
+          <ScalarProperty Name="ID_Genre" ColumnName="ID_Genre" />
+          <ScalarProperty Name="Genre_Name" ColumnName="Genre_Name" />
+          <ScalarProperty Name="Genre_Page" ColumnName="Genre_Page" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Publishers">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.Publishers">
+        <MappingFragment StoreEntitySet="Publishers">
+          <ScalarProperty Name="ID_Publisher" ColumnName="ID_Publisher" />
+          <ScalarProperty Name="Publisher_Name" ColumnName="Publisher_Name" />
+          <ScalarProperty Name="Official_Site" ColumnName="Official_Site" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="errors">
+      <EntityTypeMapping TypeName="db_MinligareevMAModel.errors">
+        <MappingFragment StoreEntitySet="errors">
+          <ScalarProperty Name="error_id" ColumnName="error_id" />
+          <ScalarProperty Name="error_message" ColumnName="error_message" />
+          <ScalarProperty Name="error_datatime" ColumnName="error_datatime" />
+          <ScalarProperty Name="error_method" ColumnName="error_method" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

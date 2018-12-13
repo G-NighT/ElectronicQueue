@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:5135/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:5135/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:5135/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService1" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetGamesEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamesEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGamesEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGamesEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecialGamesEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecialGamesEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetSpecialGamesEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSpecialGamesEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDevelopersEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevelopersEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDevelopersEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevelopersEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPublishersEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublishersEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPublishersEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublishersEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDevelopersEF_WithoutAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevelopersEF_WithoutAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDevelopersEF_WithoutAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevelopersEF_WithoutAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPublishersEF_WithoutAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublishersEF_WithoutAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPublishersEF_WithoutAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPublishersEF_WithoutAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsersTableEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersTableEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsersTableEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersTableEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsersEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetUsersEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameAreaEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameAreaEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameAreaEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameAreaEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameExhibitionEF_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameExhibitionEF" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGameExhibitionEF_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGameExhibitionEFResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logging_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logging" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logging_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoggingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDeveloper_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDeveloper" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddDeveloper_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDeveloperResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateDeveloper_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeveloper" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateDeveloper_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDeveloperResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteDeveloper_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeveloper" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteDeveloper_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDeveloperResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPublisher_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPublisher" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddPublisher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPublisherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePublisher_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePublisher" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePublisher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePublisherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePublisher_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePublisher" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePublisher_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePublisherResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_Area_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGame_Area" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_Area_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGame_AreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_Area_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame_Area" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_Area_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame_AreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_Area_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame_Area" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_Area_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame_AreaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_Exhibition_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGame_Exhibition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddGame_Exhibition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGame_ExhibitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_Exhibition_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame_Exhibition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_Exhibition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame_ExhibitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_Exhibition_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame_Exhibition" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_Exhibition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame_ExhibitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddElectronicScreen_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddElectronicScreen" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddElectronicScreen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddElectronicScreenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectAndDeleteTalonFromOCHERED_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAndDeleteTalonFromOCHERED" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectAndDeleteTalonFromOCHERED_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectAndDeleteTalonFromOCHEREDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectNaEKRAN_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectNaEKRAN" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectNaEKRAN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectNaEKRANResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_YaSVOBODEN_InputMessage">
+    <wsdl:part name="parameters" element="tns:YaSVOBODEN" />
+  </wsdl:message>
+  <wsdl:message name="IService1_YaSVOBODEN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:YaSVOBODENResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTalons_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTalons" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTalons_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTalonsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Log_InputMessage">
+    <wsdl:part name="parameters" element="tns:Log" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Log_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetGamesEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGamesEF" message="tns:IService1_GetGamesEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGamesEFResponse" message="tns:IService1_GetGamesEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialGamesEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetSpecialGamesEF" message="tns:IService1_GetSpecialGamesEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetSpecialGamesEFResponse" message="tns:IService1_GetSpecialGamesEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopersEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDevelopersEF" message="tns:IService1_GetDevelopersEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDevelopersEFResponse" message="tns:IService1_GetDevelopersEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublishersEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPublishersEF" message="tns:IService1_GetPublishersEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPublishersEFResponse" message="tns:IService1_GetPublishersEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopersEF_WithoutAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDevelopersEF_WithoutAll" message="tns:IService1_GetDevelopersEF_WithoutAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDevelopersEF_WithoutAllResponse" message="tns:IService1_GetDevelopersEF_WithoutAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublishersEF_WithoutAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPublishersEF_WithoutAll" message="tns:IService1_GetPublishersEF_WithoutAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPublishersEF_WithoutAllResponse" message="tns:IService1_GetPublishersEF_WithoutAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersTableEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUsersTableEF" message="tns:IService1_GetUsersTableEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUsersTableEFResponse" message="tns:IService1_GetUsersTableEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetUsersEF" message="tns:IService1_GetUsersEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetUsersEFResponse" message="tns:IService1_GetUsersEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameAreaEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameAreaEF" message="tns:IService1_GetGameAreaEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameAreaEFResponse" message="tns:IService1_GetGameAreaEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGameExhibitionEF">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGameExhibitionEF" message="tns:IService1_GetGameExhibitionEF_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGameExhibitionEFResponse" message="tns:IService1_GetGameExhibitionEF_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logging">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Logging" message="tns:IService1_Logging_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoggingResponse" message="tns:IService1_Logging_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddGame" message="tns:IService1_AddGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddGameResponse" message="tns:IService1_AddGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGame" message="tns:IService1_UpdateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGameResponse" message="tns:IService1_UpdateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGame" message="tns:IService1_DeleteGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGameResponse" message="tns:IService1_DeleteGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddDeveloper">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddDeveloper" message="tns:IService1_AddDeveloper_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddDeveloperResponse" message="tns:IService1_AddDeveloper_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeveloper">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateDeveloper" message="tns:IService1_UpdateDeveloper_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateDeveloperResponse" message="tns:IService1_UpdateDeveloper_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDeveloper">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteDeveloper" message="tns:IService1_DeleteDeveloper_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteDeveloperResponse" message="tns:IService1_DeleteDeveloper_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPublisher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddPublisher" message="tns:IService1_AddPublisher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddPublisherResponse" message="tns:IService1_AddPublisher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePublisher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdatePublisher" message="tns:IService1_UpdatePublisher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatePublisherResponse" message="tns:IService1_UpdatePublisher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePublisher">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletePublisher" message="tns:IService1_DeletePublisher_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletePublisherResponse" message="tns:IService1_DeletePublisher_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddUser" message="tns:IService1_AddUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddUserResponse" message="tns:IService1_AddUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateUser" message="tns:IService1_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateUserResponse" message="tns:IService1_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteUser" message="tns:IService1_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteUserResponse" message="tns:IService1_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGame_Area">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddGame_Area" message="tns:IService1_AddGame_Area_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddGame_AreaResponse" message="tns:IService1_AddGame_Area_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame_Area">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGame_Area" message="tns:IService1_UpdateGame_Area_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGame_AreaResponse" message="tns:IService1_UpdateGame_Area_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame_Area">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGame_Area" message="tns:IService1_DeleteGame_Area_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGame_AreaResponse" message="tns:IService1_DeleteGame_Area_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGame_Exhibition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddGame_Exhibition" message="tns:IService1_AddGame_Exhibition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddGame_ExhibitionResponse" message="tns:IService1_AddGame_Exhibition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame_Exhibition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGame_Exhibition" message="tns:IService1_UpdateGame_Exhibition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGame_ExhibitionResponse" message="tns:IService1_UpdateGame_Exhibition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame_Exhibition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGame_Exhibition" message="tns:IService1_DeleteGame_Exhibition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGame_ExhibitionResponse" message="tns:IService1_DeleteGame_Exhibition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddElectronicScreen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddElectronicScreen" message="tns:IService1_AddElectronicScreen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddElectronicScreenResponse" message="tns:IService1_AddElectronicScreen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectAndDeleteTalonFromOCHERED">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectAndDeleteTalonFromOCHERED" message="tns:IService1_SelectAndDeleteTalonFromOCHERED_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectAndDeleteTalonFromOCHEREDResponse" message="tns:IService1_SelectAndDeleteTalonFromOCHERED_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectNaEKRAN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectNaEKRAN" message="tns:IService1_SelectNaEKRAN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectNaEKRANResponse" message="tns:IService1_SelectNaEKRAN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="YaSVOBODEN">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/YaSVOBODEN" message="tns:IService1_YaSVOBODEN_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/YaSVOBODENResponse" message="tns:IService1_YaSVOBODEN_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTalons">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTalons" message="tns:IService1_GetTalons_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTalonsResponse" message="tns:IService1_GetTalons_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Log" message="tns:IService1_Log_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LogResponse" message="tns:IService1_Log_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetGamesEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGamesEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialGamesEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetSpecialGamesEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopersEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDevelopersEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublishersEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPublishersEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopersEF_WithoutAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDevelopersEF_WithoutAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublishersEF_WithoutAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPublishersEF_WithoutAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersTableEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUsersTableEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetUsersEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameAreaEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameAreaEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGameExhibitionEF">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGameExhibitionEF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logging">
+      <soap:operation soapAction="http://tempuri.org/IService1/Logging" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDeveloper">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddDeveloper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeveloper">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateDeveloper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDeveloper">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteDeveloper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPublisher">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddPublisher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePublisher">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdatePublisher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePublisher">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletePublisher" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGame_Area">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddGame_Area" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame_Area">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGame_Area" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame_Area">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGame_Area" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGame_Exhibition">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddGame_Exhibition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame_Exhibition">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGame_Exhibition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame_Exhibition">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGame_Exhibition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddElectronicScreen">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddElectronicScreen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectAndDeleteTalonFromOCHERED">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectAndDeleteTalonFromOCHERED" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectNaEKRAN">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectNaEKRAN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YaSVOBODEN">
+      <soap:operation soapAction="http://tempuri.org/IService1/YaSVOBODEN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTalons">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTalons" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <soap:operation soapAction="http://tempuri.org/IService1/Log" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:5135/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

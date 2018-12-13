@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ccd640c047fb4ec7aeef8c943ea5300a" Name="Diagram1">
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Area" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Developers" Width="1.5" PointX="9.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Exhibitions" Width="1.5" PointX="2.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Game_Area" Width="1.5" PointX="4.875" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Game_Exhibition" Width="1.5" PointX="4.875" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Game_Genre" Width="1.5" PointX="4.875" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Games" Width="1.5" PointX="7.125" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Genres" Width="1.5" PointX="2.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.Publishers" Width="1.5" PointX="9.375" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_MinligareevMAModel.errors" Width="1.5" PointX="7.125" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Area_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Games_Developers" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Exhibition_Exhibitions" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Area_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Exhibition_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Genre_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Game_Genre_Genres" ManuallyRouted="false" />
+        <AssociationConnector Association="db_MinligareevMAModel.FK_Games_Publishers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

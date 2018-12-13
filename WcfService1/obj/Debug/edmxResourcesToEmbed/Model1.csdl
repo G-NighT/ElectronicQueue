@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_MinligareevMAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Area_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Area_Rating" Type="Double" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="140" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Game_Area" Relationship="Self.FK_Game_Area_Area" FromRole="Area" ToRole="Game_Area" />
+  </EntityType>
+  <EntityType Name="Developers">
+    <Key>
+      <PropertyRef Name="ID_Developer" />
+    </Key>
+    <Property Name="ID_Developer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Developer_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Official_Site" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Indie" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_Games_Developers" FromRole="Developers" ToRole="Games" />
+  </EntityType>
+  <EntityType Name="Exhibitions">
+    <Key>
+      <PropertyRef Name="ID_Exhibition" />
+    </Key>
+    <Property Name="ID_Exhibition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Exhibition_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Exhibition_Rating" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Game_Exhibition" Relationship="Self.FK_Game_Exhibition_Exhibitions" FromRole="Exhibitions" ToRole="Game_Exhibition" />
+  </EntityType>
+  <EntityType Name="Game_Area">
+    <Key>
+      <PropertyRef Name="ID_Game_Area" />
+    </Key>
+    <Property Name="ID_Game_Area" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Game" Type="Int32" Nullable="false" />
+    <Property Name="ID_Area" Type="Int32" Nullable="false" />
+    <Property Name="Area_Game_Cost" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Area" Relationship="Self.FK_Game_Area_Area" FromRole="Game_Area" ToRole="Area" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_Game_Area_Games" FromRole="Game_Area" ToRole="Games" />
+  </EntityType>
+  <EntityType Name="Game_Exhibition">
+    <Key>
+      <PropertyRef Name="ID_Game_Exhibition" />
+    </Key>
+    <Property Name="ID_Game_Exhibition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Game" Type="Int32" Nullable="false" />
+    <Property Name="ID_Exhibition" Type="Int32" Nullable="false" />
+    <Property Name="Game_Rating_On_Exhibition" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Exhibitions" Relationship="Self.FK_Game_Exhibition_Exhibitions" FromRole="Game_Exhibition" ToRole="Exhibitions" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_Game_Exhibition_Games" FromRole="Game_Exhibition" ToRole="Games" />
+  </EntityType>
+  <EntityType Name="Game_Genre">
+    <Key>
+      <PropertyRef Name="ID_Game_Genre" />
+    </Key>
+    <Property Name="ID_Game_Genre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Game" Type="Int32" Nullable="false" />
+    <Property Name="ID_Genre" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_Game_Genre_Games" FromRole="Game_Genre" ToRole="Games" />
+    <NavigationProperty Name="Genres" Relationship="Self.FK_Game_Genre_Genres" FromRole="Game_Genre" ToRole="Genres" />
+  </EntityType>
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="ID_Game" />
+    </Key>
+    <Property Name="ID_Game" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Developer" Type="Int32" Nullable="false" />
+    <Property Name="ID_Publisher" Type="Int32" Nullable="false" />
+    <Property Name="Game_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Year_of_Publication" Type="Int32" Nullable="false" />
+    <Property Name="Brutal_Rating" Type="Double" Nullable="false" />
+    <Property Name="Official_Site" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Cyber_Discipline" Type="Boolean" Nullable="false" />
+    <Property Name="Network_Mode" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Developers" Relationship="Self.FK_Games_Developers" FromRole="Games" ToRole="Developers" />
+    <NavigationProperty Name="Game_Area" Relationship="Self.FK_Game_Area_Games" FromRole="Games" ToRole="Game_Area" />
+    <NavigationProperty Name="Game_Exhibition" Relationship="Self.FK_Game_Exhibition_Games" FromRole="Games" ToRole="Game_Exhibition" />
+    <NavigationProperty Name="Game_Genre" Relationship="Self.FK_Game_Genre_Games" FromRole="Games" ToRole="Game_Genre" />
+    <NavigationProperty Name="Publishers" Relationship="Self.FK_Games_Publishers" FromRole="Games" ToRole="Publishers" />
+  </EntityType>
+  <EntityType Name="Genres">
+    <Key>
+      <PropertyRef Name="ID_Genre" />
+    </Key>
+    <Property Name="ID_Genre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Genre_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Genre_Page" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="140" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Game_Genre" Relationship="Self.FK_Game_Genre_Genres" FromRole="Genres" ToRole="Game_Genre" />
+  </EntityType>
+  <EntityType Name="Publishers">
+    <Key>
+      <PropertyRef Name="ID_Publisher" />
+    </Key>
+    <Property Name="ID_Publisher" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Publisher_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Official_Site" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Games" Relationship="Self.FK_Games_Publishers" FromRole="Publishers" ToRole="Games" />
+  </EntityType>
+  <EntityType Name="UsersBD">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Second_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Administrator" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="errors">
+    <Key>
+      <PropertyRef Name="error_id" />
+    </Key>
+    <Property Name="error_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="error_message" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="error_datatime" Type="DateTime" Precision="3" />
+    <Property Name="error_method" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Game_Area_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Game_Area" Type="Self.Game_Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Game_Area">
+        <PropertyRef Name="ID_Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Games_Developers">
+    <End Role="Developers" Type="Self.Developers" Multiplicity="1" />
+    <End Role="Games" Type="Self.Games" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Developers">
+        <PropertyRef Name="ID_Developer" />
+      </Principal>
+      <Dependent Role="Games">
+        <PropertyRef Name="ID_Developer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Exhibition_Exhibitions">
+    <End Role="Exhibitions" Type="Self.Exhibitions" Multiplicity="1" />
+    <End Role="Game_Exhibition" Type="Self.Game_Exhibition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exhibitions">
+        <PropertyRef Name="ID_Exhibition" />
+      </Principal>
+      <Dependent Role="Game_Exhibition">
+        <PropertyRef Name="ID_Exhibition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Area_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Area" Type="Self.Game_Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Area">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Exhibition_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Exhibition" Type="Self.Game_Exhibition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Exhibition">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Genre_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="1" />
+    <End Role="Game_Genre" Type="Self.Game_Genre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="ID_Game" />
+      </Principal>
+      <Dependent Role="Game_Genre">
+        <PropertyRef Name="ID_Game" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Game_Genre_Genres">
+    <End Role="Genres" Type="Self.Genres" Multiplicity="1" />
+    <End Role="Game_Genre" Type="Self.Game_Genre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genres">
+        <PropertyRef Name="ID_Genre" />
+      </Principal>
+      <Dependent Role="Game_Genre">
+        <PropertyRef Name="ID_Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Games_Publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="1" />
+    <End Role="Games" Type="Self.Games" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="ID_Publisher" />
+      </Principal>
+      <Dependent Role="Games">
+        <PropertyRef Name="ID_Publisher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="db_MinligareevMAContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Area" EntityType="Self.Area" />
+    <EntitySet Name="Developers" EntityType="Self.Developers" />
+    <EntitySet Name="Exhibitions" EntityType="Self.Exhibitions" />
+    <EntitySet Name="Game_Area" EntityType="Self.Game_Area" />
+    <EntitySet Name="Game_Exhibition" EntityType="Self.Game_Exhibition" />
+    <EntitySet Name="Game_Genre" EntityType="Self.Game_Genre" />
+    <EntitySet Name="Games" EntityType="Self.Games" />
+    <EntitySet Name="Genres" EntityType="Self.Genres" />
+    <EntitySet Name="Publishers" EntityType="Self.Publishers" />
+    <EntitySet Name="UsersBD" EntityType="Self.UsersBD" />
+    <EntitySet Name="errors" EntityType="Self.errors" />
+    <AssociationSet Name="FK_Game_Area_Area" Association="Self.FK_Game_Area_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Game_Area" EntitySet="Game_Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Games_Developers" Association="Self.FK_Games_Developers">
+      <End Role="Developers" EntitySet="Developers" />
+      <End Role="Games" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Exhibition_Exhibitions" Association="Self.FK_Game_Exhibition_Exhibitions">
+      <End Role="Exhibitions" EntitySet="Exhibitions" />
+      <End Role="Game_Exhibition" EntitySet="Game_Exhibition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Area_Games" Association="Self.FK_Game_Area_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Area" EntitySet="Game_Area" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Exhibition_Games" Association="Self.FK_Game_Exhibition_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Exhibition" EntitySet="Game_Exhibition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Genre_Games" Association="Self.FK_Game_Genre_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Game_Genre" EntitySet="Game_Genre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Game_Genre_Genres" Association="Self.FK_Game_Genre_Genres">
+      <End Role="Genres" EntitySet="Genres" />
+      <End Role="Game_Genre" EntitySet="Game_Genre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Games_Publishers" Association="Self.FK_Games_Publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Games" EntitySet="Games" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

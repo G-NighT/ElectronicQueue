@@ -1,0 +1,12 @@
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\bin\Debug\Terminal.exe.config
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\bin\Debug\Terminal.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\bin\Debug\Terminal.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.csprojResolveAssemblyReference.cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.Properties.Resources.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.csproj.GenerateResource.Cache
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.exe
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.pdb
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.TerminalForm.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.FormScreen.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.SelectForm.resources
+D:\Cloud Mail.Ru\ВУЗ\3 КУРС\СИСТЕМНАЯ АРХИТЕКТУРА ИНФОРМАЦИОННЫХ СИСТЕМ\5 СЕМЕСТР\Лабораторная работа 2\Whush Solution\Terminal\obj\Debug\Terminal.CashBoxForm.resources
